@@ -1,6 +1,6 @@
 {
   "name": "@junow/mono",
-  "version": "0.5.1",
+  "version": "0.5.0",
   "author": "junow <junow@rainist.com>",
   "homepage": "https://github.com/Junow/mono-repo-test/tree/master/packages/mono#readme",
   "license": "ISC",
@@ -11,13 +11,14 @@
     "url": "git+https://github.com/Junow/mono-repo-test.git"
   },
   "scripts": {
+    "prebuild": "rm -rf dist",
     "build": "rollup -c"
   },
   "bugs": {
     "url": "https://github.com/Junow/mono-repo-test/issues"
   },
   "dependencies": {
-    "@junow/shared": "^0.5.1"
+    "@junow/shared": "^0.5.0"
   },
   "gitHead": "28b337ed6b5bb10eaf067c9886a9f9471598eb83",
   "publishConfig": {
