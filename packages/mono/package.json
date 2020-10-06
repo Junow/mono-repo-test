@@ -22,5 +22,9 @@
   "gitHead": "28b337ed6b5bb10eaf067c9886a9f9471598eb83",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "files": [
+    "dist",
+    "shared"
+  ]
 }

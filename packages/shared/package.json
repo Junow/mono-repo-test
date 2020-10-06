@@ -11,6 +11,7 @@
     "url": "git+https://github.com/Junow/mono-repo-test.git"
   },
   "scripts": {
+    "prebuild": "rm -rf dist",
     "build": "rollup -c"
   },
   "bugs": {

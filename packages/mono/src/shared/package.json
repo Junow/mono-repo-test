@@ -1,0 +1,4 @@
+{
+  "name":"@junow/shared",
+  "main":"../dist/shared.js"
+}
