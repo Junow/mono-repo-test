@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Junow/mono-repo-test/issues"
   },
-  "gitHead": "4d2f9e302210db28c3cc5ec88d177969a5053478"
+  "gitHead": "28b337ed6b5bb10eaf067c9886a9f9471598eb83",
+  "publishConfig": {
+    "access": "public"
+  }
 }
