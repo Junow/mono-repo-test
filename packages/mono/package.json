@@ -1,0 +1,22 @@
+{
+  "name": "@junow/mono",
+  "version": "0.1.0",
+  "author": "junow <junow@rainist.com>",
+  "homepage": "https://github.com/Junow/mono-repo-test/tree/master/packages/mono#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junow/mono-repo-test.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "bugs": {
+    "url": "https://github.com/Junow/mono-repo-test/issues"
+  },
+  "dependencies": {
+    "@junow/shared": "^0.1.0"
+  }
+}
