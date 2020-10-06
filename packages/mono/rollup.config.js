@@ -4,14 +4,16 @@ import babel from '@rollup/plugin-babel'
 
 // import pkg from './package.json'
 
-const input = './src/index.ts'
 const extensions = [
   '.ts'
 ]
 
 export default [
   {
-    input,
+    input: {
+      mono: './src/index.ts',
+      shared: './src/shared.ts'
+    },
     output: [
       {
         sourcemap: false,
