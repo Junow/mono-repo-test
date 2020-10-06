@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "@junow/shared": "^0.2.0"
-  }
+  },
+  "gitHead": "4d2f9e302210db28c3cc5ec88d177969a5053478"
 }
