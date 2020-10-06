@@ -1,6 +1,6 @@
 {
   "name": "@junow/mono",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "junow <junow@rainist.com>",
   "homepage": "https://github.com/Junow/mono-repo-test/tree/master/packages/mono#readme",
   "license": "ISC",
@@ -17,6 +17,6 @@
     "url": "https://github.com/Junow/mono-repo-test/issues"
   },
   "dependencies": {
-    "@junow/shared": "^0.1.0"
+    "@junow/shared": "^0.2.0"
   }
 }
