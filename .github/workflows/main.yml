@@ -22,6 +22,6 @@ jobs:
       - name: release
         run: npm run semantic-release
         env:
-          NPM_TOKEN:  ${{ secrets.NPM_AUTH_TOKEN }}
-          GH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-          SEMANTIC_RELEASE_PACKAGE: ${{ secrets.NPM_AUTH_TOKEN }}
+          NPM_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SEMANTIC_RELEASE_PACKAGE: ${{ secrets.GITHUB_TOKEN }}
