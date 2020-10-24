@@ -1,6 +1,6 @@
 {
   "name": "mono-repo-test",
-  "version": "0.0.0",
+  "version": "0.5.4",
   "description": "mono-repo-test",
   "main": "index.js",
   "scripts": {
