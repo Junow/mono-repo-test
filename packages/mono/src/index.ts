@@ -1,5 +1,1 @@
-import * as shared from '@junow/shared'
-
-export default {
-  shared
-}
+export const test = () => console.log('mono v0.5.3')
