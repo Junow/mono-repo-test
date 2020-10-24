@@ -1,0 +1,27 @@
+name: release
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: install dependency
+        run: npm install
+        
+      - name: lerna bootstrap
+        run: npm run bootstrap
+        
+      - name: build
+        run: npm run build
+        
+      - name: release
+        run: npm run semantic-release
+        env:
+          NPM_TOKEN:  ${{ secrets.NPM_AUTH_TOKEN }}
+          GH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          SEMANTIC_RELEASE_PACKAGE: ${{ secrets.NPM_AUTH_TOKEN }}
