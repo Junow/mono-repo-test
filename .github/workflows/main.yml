@@ -4,11 +4,16 @@ on:
     branches: [ main ]
 
 jobs:
-
-  build:
+  Release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.0
       
       - name: install dependency
         run: npm install
@@ -22,6 +27,6 @@ jobs:
       - name: release
         run: npm run semantic-release
         env:
-          NPM_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SEMANTIC_RELEASE_PACKAGE: ${{ secrets.GITHUB_TOKEN }}
