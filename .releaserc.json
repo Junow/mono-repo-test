@@ -10,7 +10,7 @@
       "prerelease": "beta"
     }
   ],
-  "repositoryUrl": "https://github.com/banksalad/web-native-interface",
+  "repositoryUrl": "https://github.com/junow/mono-repo-test",
   "debug": "true",
   "plugins": [
     "@semantic-release/commit-analyzer",
