@@ -1,7 +1,7 @@
 name: release
 on:
   push:
-    branches: [ main ]
+    branches: [ main, beta ]
 
 jobs:
   Release:
@@ -25,7 +25,7 @@ jobs:
         run: npm run build
         
       - name: release
-        run: npm run semantic-release
+        run: npm run release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
