@@ -44,6 +44,7 @@
   "dependencies": {
     "@junow/mono": "file:packages/mono",
     "@junow/shared": "file:packages/shared",
-    "git-cz": "^4.7.1"
+    "git-cz": "^4.7.1",
+    "semantic-release": "^17.2.2"
   }
 }
