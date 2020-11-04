@@ -13,7 +13,8 @@
   },
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/Junow/mono-repo-test/issues"
@@ -28,5 +29,14 @@
   "files": [
     "dist",
     "shared"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.1",
+    "@types/jest": "^26.0.15",
+    "babel-jest": "^26.6.1",
+    "jest": "^26.6.1",
+    "ts-jest": "^26.4.2"
+  }
 }
