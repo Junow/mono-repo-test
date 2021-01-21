@@ -9,7 +9,7 @@
     "build": "lerna run build",
     "publish": "lerna publish",
     "commit": "git-cz",
-    "release": "multi-semantic-release"
+    "release": "multi-semantic-release --execasync"
   },
   "repository": {
     "type": "git",
@@ -52,7 +52,7 @@
     "@junow/shared": "file:packages/shared",
     "@semantic-release/git": "^9.0.0",
     "git-cz": "^4.7.1",
-    "multi-semantic-release": "^2.4.7",
+    "multi-semantic-release": "2.6.0",
     "semantic-release": "^17.2.2"
   }
 }
