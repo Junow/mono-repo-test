@@ -3,3 +3,4 @@ export const test2 = () => console.log('im test from shared 222')
 console.log('betabeta')
 console.log('fix')
 console.log('test');
+console.log('test');
