@@ -1,4 +1,4 @@
-import {test2} from '@junow/shared';
+import {add} from '@junow/shared'
 
 // export const add2 = () => {
 //   return add(1,2);
@@ -8,4 +8,6 @@ import {test2} from '@junow/shared';
 //   return sub(1,2);
 // }
 export const test = () => 1;
-
+export const add2 = () => {
+  return add(1,1);
+}
