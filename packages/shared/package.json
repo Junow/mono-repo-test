@@ -1,6 +1,6 @@
 {
   "name": "@junow/shared",
-  "version": "3.1.1-beta.2",
+  "version": "3.1.1",
   "author": "junow <junow@rainist.com>",
   "homepage": "https://github.com/Junow/mono-repo-test/tree/master/packages/shared#readme",
   "license": "ISC",
