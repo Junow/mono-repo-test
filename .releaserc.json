@@ -6,8 +6,7 @@
     },
     {
       "name": "beta",
-      "channel": "beta",
-      "prerelease": "beta"
+      "prerelease": "true"
     }
   ],
   "repositoryUrl": "https://github.com/junow/mono-repo-test",
