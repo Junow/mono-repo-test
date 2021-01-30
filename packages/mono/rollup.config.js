@@ -26,6 +26,7 @@ export default [
       babel({
         exclude: 'node_modules/**',
         presets: ['@babel/env'],
+        babelHelpers: 'bundled',
       }),
       typescript({
         tsconfig: './tsconfig.json',
