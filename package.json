@@ -8,6 +8,7 @@
     "clean": "lerna clean",
     "build": "lerna run build",
     "publish": "lerna publish",
+    "link": "lerna link convert",
     "commit": "git-cz",
     "release": "multi-semantic-release --execasync"
   },
