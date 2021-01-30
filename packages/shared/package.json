@@ -1,17 +1,18 @@
 {
   "name": "@junow/shared",
-  "version": "3.0.0",
+  "version": "3.0.1-beta.2",
   "author": "junow <junow@rainist.com>",
   "homepage": "https://github.com/Junow/mono-repo-test/tree/master/packages/shared#readme",
   "license": "ISC",
-  "main": "dist/index..cjs.js",
-  "types": "dist/shared.d.ts",
+  "main": "dist/index.cjs.js",
+  "types": "dist/index.d.ts",
   "module": "dist/shared.esm.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Junow/mono-repo-test.git"
   },
   "scripts": {
+    "start": "rollup -c -w",
     "prebuild": "rm -rf dist",
     "build": "rollup -c"
   },
