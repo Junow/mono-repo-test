@@ -4,6 +4,7 @@
   "description": "mono-repo-test",
   "main": "index.js",
   "scripts": {
+    "start": "lerna run start --stream --parallel",
     "hoist": "lerna bootstrap --hoist",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",

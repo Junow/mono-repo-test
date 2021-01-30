@@ -1,7 +1,7 @@
 {
   "name": "@junow/mono",
   "description": "for monorepo test",
-  "version": "2.1.1",
+  "version": "2.2.0-beta.2",
   "author": "junow <junow@rainist.com>",
   "homepage": "https://github.com/Junow/mono-repo-test/tree/master/packages/mono#readme",
   "license": "ISC",
@@ -21,7 +21,7 @@
     "url": "https://github.com/Junow/mono-repo-test/issues"
   },
   "dependencies": {
-    "@junow/shared": "3.0.1"
+    "@junow/shared": "3.1.0-beta.2"
   },
   "gitHead": "28b337ed6b5bb10eaf067c9886a9f9471598eb83",
   "publishConfig": {
