@@ -1,6 +1,6 @@
 import { add, sub } from './functions';
 
-const test = () => console.log('hi2');
+const test = () => console.log('hi3');
 
 export {
   add,
