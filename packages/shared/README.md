@@ -2,7 +2,7 @@
 
 > TODO: description
 
-## Usage
+## Usaged
 
 ```
 const shared = require('shared');
