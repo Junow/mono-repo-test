@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const mono = require('mono');
+const mono = require('mono');d
 
 // TODO: DEMONSTRATE API
 ```
