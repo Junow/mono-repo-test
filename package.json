@@ -12,7 +12,7 @@
     "publish": "lerna publish",
     "link": "lerna link convert",
     "commit": "git-cz",
-    "release": "multi-semantic-release --execasync"
+    "release": "multi-semantic-release --execasync --tag-format --tag-format='${LERNA_PACKAGE_NAME}-v\\${version}' --dry-run"
   },
   "repository": {
     "type": "git",
