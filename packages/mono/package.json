@@ -1,7 +1,7 @@
 {
   "name": "@junow/mono",
   "description": "for monorepo test",
-  "version": "7.1.0",
+  "version": "7.2.0",
   "author": "junow <junow@rainist.com>",
   "homepage": "https://github.com/Junow/mono-repo-test/tree/master/packages/mono#readme",
   "license": "ISC",
