@@ -1,6 +1,10 @@
 {
-  "$schema": "https://unpkg.com/@changesets/config@0.2.1/schema.json",
+  "$schema": "https://unpkg.com/@changesets/config@1.5.0/schema.json",
   "changelog": "@changesets/cli/changelog",
-  "linked": [["@junow/mono", "@junow/shared"]],
-  "access": "public"
+  "commit": false,
+  "linked": ["@junow/mono", "@junow/shared"],
+  "access": "public",
+  "baseBranch": "master",
+  "updateInternalDependencies": "patch",
+  "ignore": []
 }
