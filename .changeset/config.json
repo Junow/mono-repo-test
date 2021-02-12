@@ -1,0 +1,6 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@0.2.1/schema.json",
+  "changelog": "@changesets/cli/changelog",
+  "linked": [["@junow/mono", "@junow/shared"]],
+  "access": "public"
+}
