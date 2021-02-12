@@ -1,6 +1,18 @@
 # @junow/mono
 
+## 10.0.0
+
+### Major Changes
+
+- f34ac18: test summary
+
+### Patch Changes
+
+- Updated dependencies [f34ac18]
+  - @junow/shared@10.0.0
+
 ## 9.0.0
+
 ### Major Changes
 
 - 0057653: summary
