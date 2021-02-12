@@ -13,7 +13,8 @@
     "link": "lerna link convert",
     "commit": "git-cz",
     "prerelease": "npm run build",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "changeset": "changeset"
   },
   "repository": {
     "type": "git",
