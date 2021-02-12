@@ -27,7 +27,7 @@ jobs:
       - name: Create Release Pull Request or Publish to npm
         uses: changesets/action@master
         with:
-          publish: npm run release
+          publish: npx changeset publish
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
