@@ -1,5 +1,5 @@
 import {add} from '@junow/shared'
-console.log('hi')
+console.log('hi2')
 // export const add2 = () => {
 //   return add(1,2);
 // }d
