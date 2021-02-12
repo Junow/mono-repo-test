@@ -1,6 +1,6 @@
 {
+  "private": true,
   "name": "mono-repo-test",
-  "version": "0.5.4",
   "description": "mono-repo-test",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "publish": "lerna publish",
     "link": "lerna link convert",
     "commit": "git-cz",
-    "release": "multi-semantic-release --execasync",
-    "changeset": "changeset"
+    "prerelease": "npm run build",
+    "release": "changeset publish"
   },
   "repository": {
     "type": "git",
