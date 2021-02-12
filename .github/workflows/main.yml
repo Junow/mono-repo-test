@@ -30,5 +30,6 @@ jobs:
           publish: yarn release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           SEMANTIC_RELEASE_PACKAGE: ${{ secrets.GH_TOKEN }}
