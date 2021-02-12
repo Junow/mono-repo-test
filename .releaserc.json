@@ -1,6 +1,5 @@
 
 {
-  "extends": "semantic-release-monorepo",
   "branches": [
     {
       "name": "main"
