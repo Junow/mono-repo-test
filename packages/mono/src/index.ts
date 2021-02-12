@@ -5,7 +5,7 @@ import {add} from '@junow/shared'
 // }d
 
 // export const sub2 = () => {
-//   return sub(1,2);dddddddddddddssssdd
+//   return sub(1,2);dddddddddddddssssdajdlTrnskchangesetd
 // }
 
 export const add2 = () => {
