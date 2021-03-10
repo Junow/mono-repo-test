@@ -1,6 +1,6 @@
 import {add} from '@junow/shared'
 
-describe('add', () => {
+describe('addd', () => {
   it('add', () => {
     const expectedValue= add(1,2)
 
