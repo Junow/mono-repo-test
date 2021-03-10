@@ -27,15 +27,8 @@ jobs:
       - name: Deploy new Package
         run: npm run release
         env:
-          GH_TOKEN: ${{ secrets.GH_WEB_PACKAGES_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GH_WEB_PACKAGES_TOKEN }}
-          SEMANTIC_RELEASE_PACKAGE: ${{ secrets.GH_WEB_PACKAGES_TOKEN }}
-      # - name: Create Release Pull Request or Publish to npm
-      #   uses: changesets/action@master
-      #   with:
-      #     publish: npx changeset publish
-      #   env:
-      #     GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      #     SEMANTIC_RELEASE_PACKAGE: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          SEMANTIC_RELEASE_PACKAGE: ${{ secrets.GH_TOKEN }}
+      
